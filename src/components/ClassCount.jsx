@@ -11,19 +11,17 @@ class ClassCount extends Component {
     }
   }
 
-
   componentDidMount = () => {
     // console.log("Je suis dans CDM")
-    document.title = `Vous avez cliqué ${this.state.count} fois`
+    document.title = `Nouveau titre`
   }
 
-  componentDidUpdate = (prevProps, prevState) => {
-    if (this.state.count !== prevState.count) {
-      console.log("Mise à jour du titre")
-      document.title = `Vous avez cliqué ${this.state.count} fois`
-    }
-
-  }
+  // componentDidUpdate = (prevProps, prevState) => {
+  //   if (this.state.count !== prevState.count) {
+  //     console.log("Mise à jour du titre")
+  //     document.title = `Vous avez cliqué ${this.state.count} fois`
+  //   }
+  // }
 
   handlerClick = () => {
     this.setState({

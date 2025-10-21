@@ -12,10 +12,8 @@ const FunctionCount = () => {
     console.log("Mise à jour du titre via useEffect")
     document.title = `Vous avez cliqué ${count} fois`
 
-  }, [count]) // 2 eme paramètre de fonction: celui ci vérifie que le use effect a bien été effectué
+  }, []) // 2 eme paramètre de fonction: celui ci vérifie que le useEfectffect a bien été effectué
              //  sans prendre en compte les valeurs entrés dans le input
-
-
 
 
   return(
