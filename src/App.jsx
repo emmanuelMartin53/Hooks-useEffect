@@ -1,14 +1,16 @@
 // import { useState } from 'react'
-import ClassCount from './components/classCount';
-import FunctionCount from './components/FunctionCount';
+// import ClassCount from './components/classCount';
+// import FunctionCount from './components/FunctionCount';
+import Container from './components/Container';
 import './App.css'
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
       {/* <ClassCount /> */}
-      <FunctionCount />
+      {/* <FunctionCount /> */}
+      <Container />
     </div>
   )
 }
